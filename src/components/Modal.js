@@ -1,16 +1,18 @@
-import React from 'react'
-
- const Modal = (props) => {
+import React from "react";
+import classes from "./Css/Modal.module.css";
+const Modal = (props) => {
   return (
-    <div className='modalctnr'>
-      <div className='modalchildren'>
-        <div className='closebtn' onClick={props.onClose}> X</div>
+    <div className={classes.modalCenter}>
+      <div className={classes.modalChildren}>
+        <div className={classes.closeBtn} onClick={props.onClose}>
+          {/* {" "} */}X
+        </div>
         {props.children}
-        <div className='closebtn'>
-        <button onClick={props.onSubmit}>Add</button>
+        <div className={classes.closeBtn}>
+          <button onClick={props.onSubmit}>Add</button>
         </div>
-        </div>
+      </div>
     </div>
-  )
-}
+  );
+};
 export default Modal;

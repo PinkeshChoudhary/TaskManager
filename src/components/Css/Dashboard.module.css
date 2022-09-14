@@ -1,0 +1,47 @@
+.taskCenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.AddTask {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 2em;
+  margin-left: 2em;
+}
+.addButton {
+  margin: 2px;
+}
+#button {
+  height: 3em;
+}
+.center {
+  max-height: 60vh;
+  overflow-y: auto;
+}
+#btn {
+  color: #ffffff;
+  cursor: pointer;
+  align-items: center;
+  background-color: #0a66c2;
+  border: 0;
+  border-radius: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-height: 28px;
+  font-weight: 600;
+}
+.taskBox {
+  border: 1px solid black;
+  background-color: #f5f0f0;
+  box-sizing: border-box;
+  padding: 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+.taskBox:hover {
+  box-shadow: 1px 1px 1px gray;
+}

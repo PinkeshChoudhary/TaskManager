@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  background-color: lightskyblue;
+}
+.navTitle {
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  padding: 5px;
+}
